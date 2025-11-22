@@ -1,0 +1,29 @@
+# /etc/yum.repos.d/CentOS-Vault.repo
+
+[centos-vault-base]
+name=CentOS-$releasever - Base - Vault
+baseurl=http://vault.centos.org/7.9.2009/os/$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[centos-vault-updates]
+name=CentOS-$releasever - Updates - Vault
+baseurl=http://vault.centos.org/7.9.2009/updates/$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[centos-vault-extras]
+name=CentOS-$releasever - Extras - Vault
+baseurl=http://vault.centos.org/7.9.2009/extras/$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+[centos-vault-centosplus]
+name=CentOS-$releasever - CentOSPlus - Vault
+baseurl=http://vault.centos.org/7.9.2009/centosplus/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
