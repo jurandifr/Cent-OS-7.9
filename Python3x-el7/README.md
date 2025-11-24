@@ -1,5 +1,6 @@
 
-## 🐍 Python 3.9.17 / Python 3.10.19 RPM Packages for CentOS 7.9
+## 🐍 Python 3.x RPM Packages for CentOS 7.9
+### Versions from 3.9 to 3.14
 
 This repository provides three custom-compiled RPM packages built for **CentOS 7.9**. These packages **may be compatible with RHEL 7**.
 
@@ -16,7 +17,10 @@ The repository includes the following files:
 | `openssl11w` | `1.1.1w-1.el7` | Prerequisite OpenSSL version. |
 | `python39` | `3.9.17-1.el7` | Python 3.9 package. |
 | `python310` | `3.10.19-1.el7` | Python 3.10 package. |
-
+| `python311` | `3.11.14-1.el7` | Python 3.11 package. |
+| `python312` | `3.12.12-1.el7` | Python 3.12 package. |
+| `python313` | `3.13.9-1.el7` | Python 3.13 package. |
+| `python314` | `3.14.0-1.el7` | Python 3.14 package. |
 -----
 
 ### 🇬🇧 Detailed Installation Instructions
