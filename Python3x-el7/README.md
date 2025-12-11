@@ -1,6 +1,8 @@
 ## 🐍 Python 3.x RPM Packages for CentOS 7.9
 ### Versions from 3.9 to 3.14
 
+OpenSSL11 -> https://koji.fedoraproject.org/koji/buildinfo?buildID=2368461
+
 This repository provides custom-compiled RPM packages built for **CentOS 7.9**.  
 These packages **may be compatible with RHEL 7**.
 
